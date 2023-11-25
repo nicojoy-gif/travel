@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-
 import HomeScreen from './components/Home';
 import Category from './components/Category';
 import Selling from './components/Selling';
@@ -14,9 +12,7 @@ function App() {
      <HomeScreen />
      <Category />
      <Selling />
-     
      <Book />
-     
     <Test />
     <Subscribe />
     <Footer />
