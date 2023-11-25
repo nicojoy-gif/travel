@@ -89,7 +89,7 @@ function Test() {
               </div>
             </div>
             {currentSlide !== cardsData.length - 1 && (
-              <div className="absolute -bottom-16  w-96  left-5 lg:left-10 h-24 lg:h-24 bg-white opacity-80 rounded-lg shadow-md">
+          <div className="absolute -bottom-16 w-full   left-2 lg:left-10 h-24 lg:h-24 bg-white opacity-80 rounded-lg  shadow-md">
                 <div className="opacity-80 mx-5 text-start text-slate-600 flex items-baseline justify-items-end flex-col align-baseline justify-end">
                   <p className="pt-9">{cardsData[currentSlide + 1].name}</p>
                   <p>{cardsData[currentSlide + 1].location}</p>

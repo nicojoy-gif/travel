@@ -12,7 +12,7 @@ import three from "../Assets/thr.jpg";
 function Book() {
   return (
     <div className="container text-start mx-auto  my-5 lg:h-5/6 flex justify-center items-center  h-full">
-      <section className="container lg:w-5/6 w-full mx-auto grid my-5 items-center lg:grid-cols-2 justify-items-center grid-cols-1">
+      <section className="container lg:w-5/6 w-full mx-auto grid my-5 md:items-center items-start md:grid-cols-2 md:justify-items-center justify-items-start grid-cols-1">
         <div className=" mx-5 lg:mx-0">
           <div className="my-3">
             <p className="font-semibold text-gray-600 ">Easy and Fast</p>
@@ -21,7 +21,7 @@ function Book() {
             </h1>
           </div>
           <div className="my-5 text-start text-gray-600 text-sm">
-            <div className="flex">
+            <div className="flex ">
               <div>
                 <div className="h-10 w-10 bg-yellow-500 rounded-xl flex items-center justify-center">
                   <FaVectorSquare color="white" size={16} />
@@ -29,7 +29,7 @@ function Book() {
               </div>
               <div className="px-3 ">
                 <p className="font-bold">Choose Destination</p>
-                <p className="w-4/8">
+                <p className="w-4/6 font-semibold">
                   Lorem ipsum dolor sit amet, consecteur adipiscing elit. Urna,
                   tortot tempus
                 </p>
@@ -45,7 +45,7 @@ function Book() {
               </div>
               <div className="px-3 ">
                 <p className="font-bold">Make Payment</p>
-                <p className="w-4/8">
+                <p className="w-4/6 font-semibold">
                   Lorem ipsum dolor sit amet, consecteur adipiscing elit. Urna,
                   tortot tempus
                 </p>
@@ -61,7 +61,7 @@ function Book() {
               </div>
               <div className="px-3 ">
                 <p className="font-bold">Reach Airport on Selected Date</p>
-                <p className="w-4/8">
+                <p className="w-4/6 font-semibold">
                   Lorem ipsum dolor sit amet, consecteur adipiscing elit. Urna,
                   tortot tempus
                 </p>
@@ -70,9 +70,9 @@ function Book() {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="relative mx-5">
           <div className="shadow-gradient-to-r from-sky-100 to-sky-50">
-            <div className="h-80 lg:w-72 shadow-lg rounded-xl">
+            <div className="h-80 lg:w-72 shadow-2xl shadow-sky-50 rounded-xl">
               <div className="m-3">
                 <div className="py-1">
                   <img
