@@ -17,10 +17,10 @@ function Subscribe() {
       <input
         type="text"
         placeholder="Your email"
-        className="py-2 lg:w-80 md:w-64 w-56 pl-10 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500"
+        className="py-2 lg:w-80 md:w-64 w-36 pl-10 rounded-lg  focus:outline-none focus:border-blue-500"
       />
     </div>
-<button className='mx-4 bg-orange-600 rounded-lg py-2 px-4 text-white'>Subscribe</button>
+<button className='mx-4 bg-orange-600 hover:bg-orange-700 rounded-lg py-2 px-4 text-white'>Subscribe</button>
 </div>
 </div>
 
