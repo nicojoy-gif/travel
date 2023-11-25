@@ -9,7 +9,7 @@ function Footer() {
     <footer className="bg-white px-5 text-gray-600 text-start lg:w-5/6 w-full mx-auto font-semibold py-8">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
         {/* Column 1 */}
-        <div className="flex  flex-col  items-start ">
+        <div className="flex   flex-col  items-start ">
   <img src={logo} alt='logo' className='mb-3 h-12 w-12 rounded-full' />
   <p className='text-sm w-full '>
     Book your trip in a minute, get full control for much longer.
