@@ -9,7 +9,7 @@ import chris from "../Assets/chris.jpg";
 import jap from "../Assets/darshan-patel-QJEVpydulGs-unsplash.jpg";
 import { FaChevronUp, FaChevronDown } from "react-icons/fa";
 
-function Test() {
+function Tes() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const cardsData = [
@@ -72,8 +72,8 @@ function Test() {
             ))}
           </div>
         </div>
-        <div className="flex justify-center  justify-items-center mx-10 items-center">
-          <div className="relative flex justify-items-center mx-auto w-full justify-center items-center">
+       <main className="bg-blue-50 border">
+       <div className="relative flex justify-items-center mx-auto w-full justify-center items-center">
             <div className=" relative  text-start text-slate-600  z-50 rounded-lg shadow-xl px-5 py-3">
               <div className="absolute -top-9 left-0  rounded-full h-12 w-12">
                 <img
@@ -97,7 +97,7 @@ function Test() {
               </div>
             )}
 
-            <div className="flex flex-col space-y-6 pl-5">
+            <div className="flex flex-col space-y-6 px-5 ">
               <button onClick={goToPrevSlide}>
                 <FaChevronUp size={12} color="gray" />
               </button>
@@ -106,9 +106,14 @@ function Test() {
               </button>
             </div>
           </div>
-        </div>
+        
+       </main>
+
+
+
+
       </section>
-      <section className="flex items-center py-10 container mx-auto  justify-center lg:space-x-20 space-x-10">
+      <section className="flex items-center py-10 px-5 container mx-auto  justify-center lg:space-x-20 space-x-5">
         <div className="lg:w-32 w-72 h-10">
           <img src={axon} alt="axon" className="w-48 " />
         </div>
@@ -129,4 +134,4 @@ function Test() {
   );
 }
 
-export default Test;
+export default Tes;

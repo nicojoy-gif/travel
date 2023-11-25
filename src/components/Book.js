@@ -107,7 +107,7 @@ function Book() {
               </div>
             </div>
           </div>
-          <div className="h-28 shadow-lg  bg-white z-50 rounded-lg absolute bottom-16 -right-36">
+          <div className="h-28 shadow-lg  bg-white z-50 rounded-lg absolute bottom-16 left-36">
             <div className="flex m-2 ">
               <div className="h-12 w-12">
                 <img

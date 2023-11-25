@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { FaPlay } from "react-icons/fa";
 const HomeScreen = () => {
   return (
-    <div className=" bg-gradient-to-r from-pink-50 to-pink-50 lg:h-screen  h-full">
+    <div className=" bg-gradient-to-r from-pink-50 to-pink-50 lg:h-screen w-full  h-full">
       <Navbar />
       <div className="flex justify-center mt-10 items-center">
         {/* Grid Container */}
